@@ -1,0 +1,208 @@
+{
+    "flowers": [
+      {
+        "id": 1,
+        "color": "blue",
+        "species": "Gladiolus"
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "species": "Rose"
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "species": "Sunflower"
+      },
+      {
+        "id": 4,
+        "color": "purple",
+        "species": "Lavender"
+      },
+      {
+        "id": 5,
+        "color": "white",
+        "species": "Lily"
+      },
+      {
+        "id": 6,
+        "color": "pink",
+        "species": "Tulip"
+      },
+      {
+        "id": 7,
+        "color": "orange",
+        "species": "Marigold"
+      },
+      {
+        "id": 8,
+        "color": "blue",
+        "species": "Hydrangea"
+      },
+      {
+        "id": 9,
+        "color": "red",
+        "species": "Poppy"
+      },
+      {
+        "id": 10,
+        "color": "yellow",
+        "species": "Daffodil"
+      },
+      {
+        "id": 11,
+        "color": "purple",
+        "species": "Orchid"
+      }
+    ],
+    "nurseries": [
+      {
+        "id": 1,
+        "businessName": "The Gladiolus Gondola"
+      },
+      {
+        "id": 2,
+        "businessName": "Rose Garden Nursery"
+      },
+      {
+        "id": 3,
+        "businessName": "Sunshine Nursery"
+      },
+      {
+        "id": 4,
+        "businessName": "Lavender Lane Nursery"
+      }
+    ],
+    "distributors": [
+      {
+        "id": 1,
+        "name": "Flower Power Industries",
+        "markup": 0.10
+      },
+      {
+        "id": 2,
+        "name": "Petal Pushers Co.",
+        "markup": 0.15
+      },
+      {
+        "id": 3,
+        "name": "Bloom Distributors",
+        "markup": 0.12
+      },
+      {
+        "id": 4,
+        "name": "Floral Express",
+        "markup": 0.20
+      }
+    ],
+    "retailers": [
+      {
+        "id": 1,
+        "distributorId": 1,
+        "businessName": "Mario's Fire Flower Nursery",
+        "address": "333 Goomba Valley Rd.",
+        "markup": 0.30
+      },
+      {
+        "id": 2,
+        "distributorId": 2,
+        "businessName": "Sunshine Blooms",
+        "address": "555 Petunia Park Ave.",
+        "markup": 0.25
+      },
+      {
+        "id": 3,
+        "distributorId": 3,
+        "businessName": "Floral Fantasy",
+        "address": "123 Daisy Drive",
+        "markup": 0.20
+      },
+      {
+        "id": 4,
+        "distributorId": 4,
+        "businessName": "Orchid's Oasis",
+        "address": "777 Orchid Way",
+        "markup": 0.35
+      }
+    ],
+    "flowers_nurseries": [
+      {
+        "id": 1,
+        "flowerId": 1,
+        "nurseryId": 1
+      },
+      {
+        "id": 2,
+        "flowerId": 2,
+        "nurseryId": 2
+      },
+      {
+        "id": 3,
+        "flowerId": 3,
+        "nurseryId": 3
+      },
+      {
+        "id": 4,
+        "flowerId": 4,
+        "nurseryId": 4
+      },
+      {
+        "id": 5,
+        "flowerId": 5,
+        "nurseryId": 1
+      },
+      {
+        "id": 6,
+        "flowerId": 6,
+        "nurseryId": 2
+      },
+      {
+        "id": 7,
+        "flowerId": 7,
+        "nurseryId": 3
+      },
+      {
+        "id": 8,
+        "flowerId": 8,
+        "nurseryId": 4
+      },
+      {
+        "id": 9,
+        "flowerId": 9,
+        "nurseryId": 1
+      },
+      {
+        "id": 10,
+        "flowerId": 10,
+        "nurseryId": 2
+      },
+      {
+        "id": 11,
+        "flowerId": 11,
+        "nurseryId": 3
+      }
+    ],
+    "nurseries_distributors": [
+      {
+        "id": 1,
+        "nurseryId": 1,
+        "distributorId": 1
+      },
+      {
+        "id": 2,
+        "nurseryId": 2,
+        "distributorId": 2
+      },
+      {
+        "id": 3,
+        "nurseryId": 3,
+        "distributorId": 3
+      },
+      {
+        "id": 4,
+        "nurseryId": 4,
+        "distributorId": 4
+      }
+    ]
+  }
