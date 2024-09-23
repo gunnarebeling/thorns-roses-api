@@ -1,0 +1,45 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "color": "blue",
+            "species": "Gladiolus"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "businessName": "The Gladiolus Gondola"
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Flower Power Industries",
+            "markup": 0.10
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "businessName": "Mario's Fire Flower Nursery",
+            "address": "333 Goomba Valley Rd.",
+            "markup": 0.30
+        }
+    ],
+    "flowers_nurseries": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1
+        }
+    ],
+    "nurseries_distributors": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distrubitorId": 1
+        }
+    ]
+}
