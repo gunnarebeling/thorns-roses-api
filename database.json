@@ -1,4 +1,13 @@
 {
+  "customers": [
+    {
+      "fullName": "gunnar",
+      "businessName": "the plant daddy",
+      "email": "gunnarebeling@icloud.com",
+      "password": "jazzbass1",
+      "id": 1
+    }
+  ],
   "flowers": [
     {
       "id": 1,
@@ -78,7 +87,7 @@
     {
       "id": 1,
       "name": "Flower Power Industries",
-      "markup": 0.10
+      "markup": 0.1
     },
     {
       "id": 2,
@@ -92,7 +101,7 @@
       "distributorId": 1,
       "businessName": "Mario's Fire Flower Nursery",
       "address": "333 Goomba Valley Rd.",
-      "markup": 0.30
+      "markup": 0.3
     },
     {
       "id": 2,
@@ -106,7 +115,7 @@
       "distributorId": 1,
       "businessName": "Floral Fantasy",
       "address": "123 Daisy Drive",
-      "markup": 0.20
+      "markup": 0.2
     },
     {
       "id": 4,
@@ -121,7 +130,7 @@
       "id": 1,
       "flowerId": 1,
       "nurseryId": 1,
-      "price": 10.50
+      "price": 10.5
     },
     {
       "id": 2,
@@ -169,7 +178,7 @@
       "id": 9,
       "flowerId": 9,
       "nurseryId": 1,
-      "price": 2.20
+      "price": 2.2
     },
     {
       "id": 10,
@@ -181,7 +190,7 @@
       "id": 11,
       "flowerId": 11,
       "nurseryId": 3,
-      "price": 7.50
+      "price": 7.5
     }
   ],
   "nurseries_distributors": [
@@ -263,5 +272,8 @@
       "distributorId": 2,
       "retailerId": 4
     }
+  ],
+  "shopping_cart": [
+
   ]
 }
