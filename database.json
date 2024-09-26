@@ -299,11 +299,11 @@
   ],
   "customers": [
     {
-      "id": 1,
       "fullName": "Dukey Pukey",
       "businessName": "I don't know",
       "email": "dukeypukey@gmail.com",
-      "password": "bigdukey"
+      "password": "bigdukey",
+      "id": 1
     },
     {
       "fullName": "Craggy Boggbasher",
@@ -318,6 +318,83 @@
       "email": "toadhorn@gmail.com",
       "password": "toadman",
       "id": 3
+    },
+    {
+      "fullName": "gunnar",
+      "businessName": "the plant daddy",
+      "email": "gunnarebeling@icloud.com",
+      "password": "jazzbass1",
+      "id": 4
+    },
+    {
+      "fullName": "Tod",
+      "businessName": "Tod's Bods",
+      "email": "tod@gmail.com",
+      "password": "tod",
+      "id": 5
+    }
+  ],
+  "shopping_cart": [
+    {
+      "customerId": 3,
+      "retailerId": 1,
+      "flowerId": 1,
+      "id": 1
+    },
+    {
+      "customerId": 3,
+      "retailerId": 1,
+      "flowerId": 5,
+      "id": 2
+    },
+    {
+      "customerId": 4,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 15.02,
+      "id": 3
+    },
+    {
+      "customerId": 4,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 15.02,
+      "id": 4
+    },
+    {
+      "customerId": 4,
+      "retailerId": 1,
+      "flowerId": 5,
+      "price": 18.58,
+      "id": 5
+    },
+    {
+      "customerId": 5,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 15.02,
+      "id": 6
+    },
+    {
+      "customerId": 5,
+      "retailerId": 1,
+      "flowerId": 5,
+      "price": 18.58,
+      "id": 7
+    },
+    {
+      "customerId": 5,
+      "retailerId": 1,
+      "flowerId": 1,
+      "price": 15.02,
+      "id": 8
+    },
+    {
+      "customerId": 5,
+      "retailerId": 4,
+      "flowerId": 11,
+      "price": null,
+      "id": 9
     }
   ]
 }
